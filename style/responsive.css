@@ -1,73 +1,101 @@
 /* ----------Mobile devices-------------- */
 @media screen and (max-width:576px) {
-    header{
+    header {
         margin: 2.5rem 1.5rem;
     }
+
     nav,
-    .nav-content ul
-    {
+    .nav-content ul {
         flex-direction: column;
         gap: 1.5rem;
     }
-    nav h3{
+
+    nav h3 {
         text-align: center;
     }
-    .banner{
+
+    .banner {
         flex-direction: column-reverse;
         gap: 2rem;
         margin: 2.5rem 1.5rem;
     }
-    .banner-content{
+
+    .banner-content {
         width: 100%;
         text-align: center;
     }
-    .partner{
+
+    .partner {
         margin: 2.5rem 1.5rem;
         flex-wrap: wrap;
         gap: 2rem;
     }
-    .collection{
+
+    .collection {
         margin: 2.5rem 1.5rem;
     }
-    .collection-container{
+
+    .collection-container {
         grid-template-columns: 1fr;
+    }
+
+    .feature {
+        flex-direction: column-reverse;
+        text-align: center;
+        margin: 2.5rem 1.5rem;
+    }
+
+    .feature-img img {
+        width: 100%;
     }
 
 }
 
 
 /* -------------Medium devices ----------------- */
-@media screen and (min-width:577px) and   (max-width:768px) {
-    header{
+@media screen and (min-width:577px) and (max-width:768px) {
+    header {
         margin: 2.5rem 2.5rem;
     }
+
     nav,
-    .nav-content ul
-    {
+    .nav-content ul {
         flex-direction: column;
         gap: 1.5rem;
     }
-    nav h3{
+
+    nav h3 {
         text-align: center;
     }
-    .banner{
+
+    .banner {
         flex-direction: column-reverse;
         gap: 2rem;
         margin: 2.5rem 2.5rem;
     }
-    .banner-content{
+
+    .banner-content {
         width: 100%;
         text-align: center;
     }
-    .partner{
+
+    .partner {
         margin: 2.5rem 2.5rem;
         flex-wrap: wrap;
         gap: 2rem;
     }
-    .collection{
+
+    .collection {
         margin: 2.5rem 2.5rem;
     }
-    .collection-container{
-        grid-template-columns: repeat(2,1fr);
+
+    .collection-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .feature {
+        flex-direction: column-reverse;
+        text-align: center;
+        margin: 2.5rem 2.5rem;
     }
 }
