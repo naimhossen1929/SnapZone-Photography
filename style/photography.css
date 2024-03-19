@@ -154,6 +154,9 @@ nav {
     background: #FFF;
     box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
 }
+.collection-item img{
+    width: 100%;
+}
 
 .collection-item h4 {
     font-size: 1.8rem;
