@@ -26,6 +26,12 @@
         flex-wrap: wrap;
         gap: 2rem;
     }
+    .collection{
+        margin: 2.5rem 1.5rem;
+    }
+    .collection-container{
+        grid-template-columns: 1fr;
+    }
 
 }
 
@@ -57,5 +63,11 @@
         margin: 2.5rem 2.5rem;
         flex-wrap: wrap;
         gap: 2rem;
+    }
+    .collection{
+        margin: 2.5rem 2.5rem;
+    }
+    .collection-container{
+        grid-template-columns: repeat(2,1fr);
     }
 }
