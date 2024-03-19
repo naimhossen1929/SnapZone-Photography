@@ -1,0 +1,52 @@
+/* -------------Shared Styles----------- */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+:root{
+    --font-color:#3A3A3A;
+}
+
+/* ------------Header section Styles -------------- */
+
+header{
+    margin: 4.5rem 8.5rem;
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.shop-name h3{
+    font-size: 1.5rem;
+    color: var(--font-color);
+    font-weight: 700;
+    cursor: pointer;
+}
+.nav-content ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2.5rem;
+}
+.nav-content ul li{
+    list-style: none;
+}
+.nav-content ul li a{
+    text-decoration: none;
+    color: var(--font-color);
+    font-weight: 600;
+}
+.hover{
+    transition: border-bottom 0.1s ease-in-out;
+}
+
+ .hover:hover{
+    color: black;
+    border-bottom: 3px solid #E02C6D;
+    padding-bottom: 0.3rem;
+}

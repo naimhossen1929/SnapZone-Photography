@@ -1,0 +1,13 @@
+/* ----------Mobile devices-------------- */
+@media screen and (max-width:576px) {
+    nav,
+    .nav-content ul
+    {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+    nav h3{
+        text-align: center;
+    }
+
+}
