@@ -102,3 +102,11 @@ nav{
     color: #E02C6D;
     border: 2px solid #E02C6D;
 }
+
+/* ----partner section styles---------- */
+.partner{
+    margin: 3.5rem  9.5rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
